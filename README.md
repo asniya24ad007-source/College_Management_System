@@ -62,11 +62,19 @@ Engine-Level Optimization: Offloaded heavy computational logic (GPA auditing, en
 Decoupled Architecture: Designed a highly scalable split layer between the persistent SQL data structures and the real-time Streamlit presentation user interface
 
 📁 Project Structure
+
 College_Management_System/
+
 │
+
 ├── README.md        # System documentation & project overview
+
 ├── index.html       # Main user interface layout (Login, Admin, Faculty, & Student views)
+
 ├── app.js           # Client-side JavaScript (Handles button clicks & browser UI logic)
+
 ├── server.js        # Node.js backend server (Connects to MySQL & runs database queries)
+
 ├── package.json     # Project configuration configuration and backend dependencies
+
 └── package-lock.json# Locked version history of installed npm modules
